@@ -1,0 +1,78 @@
+﻿  Compiling CUDA source file GPU\GPUEngine.cu...
+  
+  C:\Users\msgtj\source\repos\KeyHuntCudaForPool\KeyHunt-Cuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_35,code=\"sm_35,compute_35\" -gencode=arch=compute_37,code=\"sm_37,compute_37\" -gencode=arch=compute_50,code=\"sm_50,compute_50\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_60,code=\"sm_60,compute_60\" -gencode=arch=compute_61,code=\"sm_61,compute_61\" -gencode=arch=compute_70,code=\"sm_70,compute_70\" -gencode=arch=compute_75,code=\"sm_75,compute_75\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x64" -x cu  -IC:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -DWITHGPU -D_CRT_SECURE_NO_WARNINGS -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc142.pdb /FS /Zi  /MD " -o x64\Release\GPUEngine.cu.obj "C:\Users\msgtj\source\repos\KeyHuntCudaForPool\KeyHunt-Cuda\GPU\GPUEngine.cu" 
+C:/Users/msgtj/source/repos/KeyHuntCudaForPool/KeyHunt-Cuda/GPU/GPUEngine.cu(853): warning : variable "pubkey" was declared but never referenced
+  
+C:/Users/msgtj/source/repos/KeyHuntCudaForPool/KeyHunt-Cuda/GPU/GPUEngine.cu(853): warning : variable "pubkey" was declared but never referenced
+  
+C:/Users/msgtj/source/repos/KeyHuntCudaForPool/KeyHunt-Cuda/GPU/GPUEngine.cu(853): warning : variable "pubkey" was declared but never referenced
+  
+C:/Users/msgtj/source/repos/KeyHuntCudaForPool/KeyHunt-Cuda/GPU/GPUEngine.cu(853): warning : variable "pubkey" was declared but never referenced
+  
+C:/Users/msgtj/source/repos/KeyHuntCudaForPool/KeyHunt-Cuda/GPU/GPUEngine.cu(853): warning : variable "pubkey" was declared but never referenced
+  
+C:/Users/msgtj/source/repos/KeyHuntCudaForPool/KeyHunt-Cuda/GPU/GPUEngine.cu(853): warning : variable "pubkey" was declared but never referenced
+  
+C:/Users/msgtj/source/repos/KeyHuntCudaForPool/KeyHunt-Cuda/GPU/GPUEngine.cu(853): warning : variable "pubkey" was declared but never referenced
+  
+C:/Users/msgtj/source/repos/KeyHuntCudaForPool/KeyHunt-Cuda/GPU/GPUEngine.cu(853): warning : variable "pubkey" was declared but never referenced
+  
+C:/Users/msgtj/source/repos/KeyHuntCudaForPool/KeyHunt-Cuda/GPU/GPUEngine.cu(853): warning : variable "pubkey" was declared but never referenced
+  
+  GPUEngine.cu
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:/Users/msgtj/source/repos/KeyHuntCudaForPool/KeyHunt-Cuda/GPU/GPUEngine.cu(508): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+C:/Users/msgtj/source/repos/KeyHuntCudaForPool/KeyHunt-Cuda/GPU/GPUEngine.cu(512): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+C:/Users/msgtj/source/repos/KeyHuntCudaForPool/KeyHunt-Cuda/GPU/GPUEngine.cu(517): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+C:/Users/msgtj/source/repos/KeyHuntCudaForPool/KeyHunt-Cuda/GPU/GPUEngine.cu(540): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+cl : command line warning D9002: ignoring unknown option '/arch:SSE'
+  Base58.cpp
+  Bloom.cpp
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\KeyHunt-Cuda\Bloom.cpp(81,21): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+  CmdParse.cpp
+  GmpUtil.cpp
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmp.h(1795,19): warning C4244: 'return': conversion from 'mp_limb_t' to 'unsigned long', possible loss of data
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(101,26): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(155,6): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(206,24): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(278,24): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(322,24): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(330,26): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(372,37): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(407,24): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(414,24): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(442,36): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(525,20): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(570,20): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(599,19): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(667,13): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(720,20): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(764,19): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(774,16): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(1292,10): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(1593,12): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\gmp\include\gmpxx.h(1617,10): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  GPUGenerate.cpp
+  keccak160.cpp
+  ripemd160.cpp
+  ripemd160_sse.cpp
+  sha256.cpp
+  sha256_sse.cpp
+  sha512.cpp
+  Int.cpp
+  IntGroup.cpp
+  IntMod.cpp
+  KeyHunt.cpp
+C:\Users\msgtj\source\repos\KeyHuntCudaForPool\KeyHunt-Cuda\KeyHunt.cpp(1224,15): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Main.cpp
+  Point.cpp
+  Random.cpp
+  SECP256K1.cpp
+  Timer.cpp
+gmp.lib(invert_limb_table.obj) : warning LNK4078: multiple '.rdata' sections found with different attributes (C0400040)
+     Creating library C:\Users\msgtj\source\repos\KeyHuntCudaForPool\x64\Release\KeyHunt-Cuda.lib and object C:\Users\msgtj\source\repos\KeyHuntCudaForPool\x64\Release\KeyHunt-Cuda.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 750 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  KeyHunt-Cuda.vcxproj -> C:\Users\msgtj\source\repos\KeyHuntCudaForPool\x64\Release\KeyHunt-Cuda.exe
