@@ -1,4 +1,10 @@
-# KeyHunt-Cuda 
+# KeyHuntCudaClient
+First, many thanks to kanhavishva for an awesome program. https://github.com/kanhavishva/KeyHunt-Cuda
+
+This version that I am posting and working on is specifically tweaked to work with the BTC challenge pools, as the client "cracking" program.
+People who wish to take part in the pools, will also need to download the actual client software that will connect to the pool and run this program.
+So far, the only thing I needed to tweak was the way the public address, private key, and public key, printed to file.
+
 _Hunt for Bitcoin private keys._
 
 This is a modified version of VanitySearch by [JeanLucPons](https://github.com/JeanLucPons/VanitySearch/).
